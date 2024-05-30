@@ -5,7 +5,7 @@ $(document).ready(function() {
         var fechaSeleccionada = $("#fecha").val();
 
         $.ajax({
-            url: "https://tu-usuario.github.io/tu-repositorio/api/dummy",
+            url: "https://carlosltn0203.github.io/json-/api/dummy",
             method: "GET",
             data: { fecha: fechaSeleccionada },
             success: function(data) {
